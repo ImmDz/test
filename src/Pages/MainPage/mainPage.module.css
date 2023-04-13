@@ -1,0 +1,39 @@
+.banner {
+  width: 100%;
+  height: 488px;
+}
+.adaptiveMenu {
+  display: none;
+}
+
+:global(.ant-skeleton) {
+  width: 100% !important;
+}
+
+.imgPlug {
+  width: 100% !important;
+  height: 488px !important;
+}
+
+:global(.ant-image-img) {
+  height: 488px !important;
+  object-fit: cover;
+  width: 100%;
+}
+
+.popularCategories {
+  padding: 0;
+}
+
+.floatButton {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .categoriesMenu {
+    display: none;
+  }
+  .floatButton {
+    display: block;
+  }
+}

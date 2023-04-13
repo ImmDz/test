@@ -1,0 +1,20 @@
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchInput {
+  max-width: 400px;
+  align-self: center;
+}
+
+@media screen and (max-width: 980px) {
+  .filter {
+    flex-direction: column;
+  }
+  .filter > * {
+    flex-grow: 1;
+    width: 50%;
+  }
+}

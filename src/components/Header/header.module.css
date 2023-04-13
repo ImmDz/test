@@ -1,0 +1,41 @@
+.header {
+  height: 100px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.searchInput {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.adminLink {
+  color: #fff;
+}
+
+.cartIcon {
+  font-size: 30px;
+  color: #f7f4c6;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    height: 320px;
+  }
+
+  .headerContainer {
+    flex-direction: column;
+  }
+}
