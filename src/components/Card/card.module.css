@@ -1,0 +1,19 @@
+.productCard {
+  height: 450px;
+}
+
+.imgPlug {
+  width: 100% !important;
+  height: 200px !important;
+}
+.cardTitle {
+  color: #464646;
+  text-align: center;
+}
+
+.cardImg {
+  border-radius: 0% !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}

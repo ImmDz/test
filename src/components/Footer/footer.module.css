@@ -1,0 +1,25 @@
+.footer {
+  background-color: #001529;
+}
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.socialList {
+  display: flex;
+  gap: 10px;
+  font-size: large;
+  color: #f7f4c6;
+}
+
+.footerInfo {
+  color: #fff;
+}
+
+@media screen and (max-width: 550px) {
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

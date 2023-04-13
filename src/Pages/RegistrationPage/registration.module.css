@@ -1,0 +1,13 @@
+.registrationForm {
+  margin-top: 50px;
+  align-self: center;
+  width: 50%;
+}
+
+.fromContol {
+  text-align: center;
+}
+
+.errorMessage {
+  color: red;
+}
